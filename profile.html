@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneha's Portfolio</title>
+  
+</head>
+<!--Box icons-->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+<!--Stylesheet css link-->
+<link rel="stylesheet" href="profile.css">
+
+<body>
+    <!--header design-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio </a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact Me</a>
+            <button onclick="myFunction()"><i class='bx bxs-brightness-half'></i></button>
+        </nav>
+    </header>
+
+    <!--Home section Design-->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1>A.Sneha</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I'm Fresher. And have good practice Knowledge on  C,Python,IOT.
+            </p>
+            <!-- <img src="pic1 (1).jpg"> -->
+            <div class="social-media">
+             
+                <a href="https://www.linkedin.com/in/a-sneha-426401277/"><i
+                        class='bx bxl-linkedin-square'></i></a>
+          
+            </div>
+            <div class="home-img">
+                <img src="pic1.jpeg" alt="">
+            </div>
+           
+        </div>
+        
+    </section>
+
+    <!--About section design -->
+    <section class="about" id="about">
+            <div class="rotate">
+                <div class="about-images">
+                    <img src="pic1 (1).jpg">
+                    <img src="pic1 (2).jpg">
+                    <img src="pic1.jpeg">
+                    <img src="pic1 (3).jpg">
+                    <img src="pic6.jpg">
+
+
+                </div>
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About<span>Me</span></h2>
+                <h3>Web Developer</h3>
+                <p>My name is A.Sneha. I am 19 years old . My native place is Andhra Pradesh  </p>
+                <a href="aboutMe/about.html" target="_blank" class="btn">Read More</a> 
+            </div>
+    </section>
+
+    <!--service section Design -->
+
+    <section class="services" id="services">
+        <h2 class="heading"><span>My Acknowledgement</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>IOT and Robotic internship certificate</h3>
+                <p>I have a practicle knowledge on IOT and Robotics.
+                </p>
+                <a href="certificate.pdf" target="_blank" class="btn">View Certificate</a>
+            </div>
+            
+                
+            <div class="services-box">
+                <i class='bx bx-mobile'></i>
+                <h3>IOT course certificate</h3>
+                <p> I have a basic knowledge on IOT and because of my interest to 
+                   work on iot base projects.I choose to learn this course.
+                </p>
+                <a href="certificate1.pdf" target="_blank" class="btn">View Certificate</a>
+            </div> 
+        </div>
+    </section> 
+
+
+    <!--Contact Section Design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span>Me!</span></h2>
+
+        <form action="mailto:priyadarshinipayal02@gmail.com" method="post" enctype="text/plain">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="30" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    
+
+    <!--scroll Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--typed js-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!--Custom js-->
+    <script src="script.js"></script>
+</body>
+<!--Footer Design-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright ❤ All Rights reserved || 2023 by Sneha</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+
+</html>
